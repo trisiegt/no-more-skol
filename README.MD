@@ -17,4 +17,5 @@ Then run it.
 # Credits
 
 William Rogers - Ideas
+
 Tristan Carpenter - Developement, Programming and a butt ton of other stuff
